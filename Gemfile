@@ -22,7 +22,7 @@ group :test do
   gem 'rake', '~> 10'
   gem 'rubocop', '~> 0.36.0'
   gem 'simplecov', '~> 0.10'
-  gem 'concurrent-ruby', '~> 0.9'
+  gem 'concurrent-ruby', '~> 0.9', '>= 0.9.2'
   gem 'mocha', '~> 1.1'
   gem 'ruby-progressbar', '~> 1.8'
   gem 'nokogiri', '~> 1.6'
