@@ -10,7 +10,7 @@ if Gem::Version.new(RUBY_VERSION) <= Gem::Version.new('1.9.3')
 end
 
 if Gem::Version.new(RUBY_VERSION) < Gem::Version.new('2.2.2')
-  gem 'json', '~> 1.8'
+  gem 'json', '~> 1.8', '>= 1.8.6'
   gem 'rack', '< 2.0'
 end
 
