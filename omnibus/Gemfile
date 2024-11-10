@@ -26,5 +26,5 @@ group :development do
   # Use Test Kitchen with Vagrant for converging the build environment
   gem 'test-kitchen',    '~> 1.9'
   gem 'kitchen-vagrant', '~> 0.19'
-  gem 'winrm-fs', '~> 0.4'
+  gem 'winrm-fs', '~> 0.4', '>= 0.4.3'
 end
